@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+#animal-photos{
+	background-color:#545555;
+}
+#photo-heading{
+	text-align:center;
+	padding-top:10px;
+	color:white;
+}
+.grid{
+	display:flex;
+	flex-direction:column;
+	flex:1;
+	box-sizing:content-box;
+}
+
+.col{
+	display:flex;
+	justify-content:space-evenly;
+	box-sizing:border-box;
+}
+.col>img{
+	padding:10px;
+	border-radius:20px;
+}
